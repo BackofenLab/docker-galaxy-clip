@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/BackofenLab/docker-galaxy-clip.svg?branch=master)](https://travis-ci.org/BackofenLab/docker-galaxy-clip)
-[![Docker Repository on Quay](https://quay.io/repository/bgruening/galaxy-graphclust/status "Docker Repository on Quay")](https://quay.io/repository/bgruening/galaxy-clip)
+[![Docker Repository on Quay](https://quay.io/repository/bgruening/galaxy-clip/status "Docker Repository on Quay")](https://quay.io/repository/bgruening/galaxy-clip)
 
 Galaxy-CLIP
 ========================
@@ -17,12 +17,12 @@ Table of Contents
       * [Running the Galaxy server](#running-the-galaxy-server)
          * [From the command line (Linux/Windows/MacOS):](#from-the-command-line-linuxwindowsmacos)
          * [Using Kitematic graphic interface (Windows/MacOS):](#using-kitematic-graphic-interface-windowsmacos)
-   * [Usage - How to run Galaxy-GraphClust:](#usage---how-to-run-galaxy-graphclust)
+   * [Usage - How to run Galaxy-GraphClust:](#usage---how-to-run-galaxy-clip)
       * [Browser access to the server:](#browser-access-to-the-server)
       * [Registration and Login:](#registration-and-login)
       * [Help](#help)
          * [Interactive tours](#interactive-tours)
-   * [CLIP pipeline overview](#graphclust-pipeline-overview)
+   * [CLIP pipeline overview](#clip-pipeline-overview)
    * [Contributors](#contributors)
    * [Support &amp; Bug Reports](#support--bug-reports)
 
@@ -40,7 +40,7 @@ Docker supports the three major desktop operating systems  Linux, Windows and Ma
 
   * Alternatively Galaxy-GraphClust can be integrated into a running Galaxy server. All the Galaxy-GraphClust tools and workflows needed to run the 
     GraphClust pipeline are listed in [workflows](./workflows/) and 
-    [tools-list](graphclust.yml).
+    [tools-list](clip.yml).
     The [Freibug Galaxy Instance](http://galaxy.uni-freiburg.de) for example
     offers next to 700 other tools also the GraphClust Pipeline.
 
@@ -49,7 +49,7 @@ Docker supports the three major desktop operating systems  Linux, Windows and Ma
 #### From the command line (Linux/Windows/MacOS):
 
 ```bash
-docker run -i -t -p 8080:80 backofenlab/docker-galaxy-graphclust
+docker run -i -t -p 8080:80 backofenlab/docker-galaxy-clip
 ```
 
 For more details about this command line or specific usage, please consult the Galaxy Docker [`guide`](https://github.com/bgruening/docker-galaxy-stable/blob/master/README.md).
